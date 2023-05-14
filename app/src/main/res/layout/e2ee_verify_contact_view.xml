@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/e2ee_verify_contact_wrapper"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:visibility="gone">
+
+  <TextView
+    android:id="@+id/e2ee_verify_contact_info_text"
+    style="?attr/e2eeStripInfoTextStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center" />
+
+  <LinearLayout
+    android:id="@+id/e2ee_verify_contact_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TableLayout
+      android:id="@+id/e2ee_verify_contact_number_table"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:clickable="true"
+      android:focusable="true">
+
+      <TableRow
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center_horizontal">
+
+        <TextView
+          android:id="@+id/code_first"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:text="22934" />
+
+        <TextView
+          android:id="@+id/code_second"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          tools:text="56944" />
+
+        <TextView
+          android:id="@+id/code_third"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          tools:text="42738" />
+
+        <TextView
+          android:id="@+id/code_fourth"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          tools:text="20038" />
+      </TableRow>
+
+      <TableRow android:gravity="center_horizontal">
+
+        <TextView
+          android:id="@+id/code_fifth"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:text="34431" />
+
+        <TextView
+          android:id="@+id/code_sixth"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          tools:text="24922" />
+
+        <TextView
+          android:id="@+id/code_seventh"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          tools:text="58594" />
+
+        <TextView
+          android:id="@+id/code_eighth"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          tools:text="24109" />
+      </TableRow>
+
+      <TableRow android:gravity="center_horizontal">
+
+        <TextView
+          android:id="@+id/code_ninth"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:text="00257" />
+
+        <TextView
+          android:id="@+id/code_tenth"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          tools:text="34956" />
+
+        <TextView
+          android:id="@+id/code_eleventh"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          tools:text="32440" />
+
+        <TextView
+          android:id="@+id/code_twelth"
+          style="?attr/e2eeStripFingerprintStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          tools:text="15774" />
+      </TableRow>
+    </TableLayout>
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/e2ee_verify_contact_button_strip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_weight="0"
+    android:gravity="center"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="horizontal"
+    android:soundEffectsEnabled="false"
+    android:translationZ="10dp">
+
+    <ImageButton
+      android:id="@+id/e2ee_verify_contact_verify_button"
+      style="?attr/e2eeStripActionButtonAddContactStyle"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center"
+      android:layout_marginRight="15dp" />
+
+    <ImageButton
+      android:id="@+id/e2ee_verify_contact_return_button"
+      style="?attr/e2eeStripActionButtonReturnStyle"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center" />
+  </LinearLayout>
+</LinearLayout>

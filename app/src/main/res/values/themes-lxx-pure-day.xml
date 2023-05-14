@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="KeyboardTheme_LXX_Pure_Day" parent="KeyboardIcons.LXX_Light">
+    <item name="inputViewStyle">@style/InputView</item>
+    <item name="keyboardStyle">@style/Keyboard.LXX_Pure_Day</item>
+    <item name="keyboardViewStyle">@style/KeyboardView.LXX_Pure_Day</item>
+    <item name="mainKeyboardViewStyle">@style/MainKeyboardView.LXX_Pure_Day</item>
+    <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.LXX_Pure_Day</item>
+    <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.LXX_Pure_Day</item>
+    <item name="e2eeStripViewStyle">@style/E2EEStripView.LXX_Pure_Day</item>
+    <item name="e2eeStripActionButtonCommonStyle">
+      @style/E2EEStripViewCommon_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripActionButtonEncryptStyle">
+      @style/E2EEStripViewActionButton_Encrypt_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripActionButtonDecryptStyle">
+      @style/E2EEStripViewActionButton_Decrypt_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripActionButtonRecipientStyle">
+      @style/E2EEStripViewActionButton_Recipient_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripInputFieldStyle">@style/E2EEStripViewInputField_LXX_Pure_Day</item>
+    <item name="e2eeStripInputFieldClearButtonStyle">
+      @style/E2EEStripViewInputFieldClearButton_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripInputFieldFairyTaleEncButtonStyle">
+      @style/E2EEStripViewInputFieldSelectFairyTaleEncButton_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripInputFieldRawEncButtonStyle">
+      @style/E2EEStripViewInputFieldSelectRawEncButton_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripInfoTextStyle">
+      @style/E2EEStripViewInfoTextField_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripActionButtonChatLogsStyle">
+      @style/E2EEStripViewActionButtonChatLogs_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripActionButtonHelpStyle">
+      @style/E2EEStripViewActionButton_Help_LXX_Pure_Day
+    </item>
+
+    <item name="e2eeStripActionButtonCancelStyle">
+      @style/E2EEStripViewActionButton_Cancel_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripActionButtonAddContactStyle">
+      @style/E2EEStripViewActionButton_Add_Contact_LXX_Pure_Day
+    </item>
+
+    <item name="e2eeStripActionButtonInviteNewContactStyle">
+      @style/E2EEStripViewActionButton_Invite_New_Contact_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripContactListNameFieldStyle">
+      @style/E2EEStripViewContactListNameField_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripInputFieldRemoveButtonStyle">
+      @style/E2EEStripViewActionButton_Remove_Contact_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripContactUnverifiedButtonStyle">
+      @style/E2EEStripViewActionButton_Unverified_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripContactVerifiedButtonStyle">
+      @style/E2EEStripViewActionButton_Verified_LXX_Pure_Day
+    </item>
+
+    <item name="e2eeStripOwnMessagesTextStyle">
+      @style/E2EEStripViewOwnMessagesTextView_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripOthersMessagesTextStyle">
+      @style/E2EEStripViewOthersMessagesTextView_LXX_Pure_Day
+    </item>
+    <item name="e2eeStripMessagesTimestampTextStyle">
+      @style/E2EEStripViewMessagesTimestampTextView_LXX_Pure_Day
+    </item>
+
+    <item name="e2eeStripActionButtonReturnStyle">
+      @style/E2EEStripViewActionButton_Return_LXX_Pure_Day
+    </item>
+
+    <item name="e2eeStripFingerprintStyle">
+      @style/E2EEStripViewFingerprint_LXX_Pure_Day
+    </item>
+  </style>
+
+  <style name="Keyboard.LXX_Pure_Day" parent="Keyboard"></style>
+
+  <style name="KeyboardView.LXX_Pure_Day" parent="KeyboardView">
+    <item name="android:background">@color/background_lxx_pure_day</item>
+    <item name="keyBackground">@drawable/btn_keyboard_key_lxx_pure_day</item>
+    <item name="functionalKeyBackground">@drawable/btn_keyboard_key_functional_lxx_pure_day
+    </item>
+    <item name="spacebarBackground">@drawable/btn_keyboard_key_lxx_pure_day</item>
+    <item name="keyTextColor">@color/key_text_color_lxx_pure_day</item>
+    <item name="keyTextInactivatedColor">@color/key_functional_text_color_lxx_pure_day</item>
+    <item name="functionalTextColor">@color/key_text_color_lxx_pure_day</item>
+    <item name="keyHintLetterColor">@color/key_hint_letter_color_lxx_pure_day</item>
+    <item name="keyHintLabelColor">@color/key_text_inactive_color_lxx_pure_day</item>
+    <item name="keyShiftedLetterHintInactivatedColor">@color/key_text_inactive_color_lxx_pure_day
+    </item>
+    <item name="keyShiftedLetterHintActivatedColor">@color/key_text_color_lxx_pure_day</item>
+    <item name="keyPreviewTextColor">@color/key_text_color_lxx_pure_day</item>
+  </style>
+
+  <style name="MainKeyboardView.LXX_Pure_Day" parent="KeyboardView.LXX_Pure_Day">
+    <item name="keyPreviewBackground">@drawable/keyboard_key_feedback_background_lxx_pure_day
+    </item>
+    <item name="keyPreviewHeight">@dimen/config_key_preview_height_lxx</item>
+    <item name="keyPreviewWidth">@dimen/config_key_preview_width_lxx</item>
+    <item name="keyPreviewOffset">@dimen/config_key_preview_offset_lxx</item>
+    <item name="keyPreviewDismissAnimator">@anim/key_preview_dismiss_lxx</item>
+    <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_pure_day
+    </item>
+    <item name="languageOnSpacebarTextColor">@color/key_text_inactive_color_lxx_pure_day</item>
+  </style>
+
+  <style name="MoreKeysKeyboard.LXX_Pure_Day" parent="Keyboard.LXX_Pure_Day">
+    <item name="keyboardTopPadding">0%p</item>
+    <item name="keyboardBottomPadding">0%p</item>
+    <item name="horizontalGap">0%p</item>
+  </style>
+
+  <style name="MoreKeysKeyboardView.LXX_Pure_Day" parent="KeyboardView.LXX_Pure_Day">
+    <item name="android:background">@drawable/keyboard_popup_panel_background_lxx_pure_day</item>
+    <item name="keyBackground">@drawable/btn_keyboard_key_popup_lxx_pure_day</item>
+    <item name="keyTypeface">normal</item>
+    <item name="verticalCorrection">@dimen/config_more_keys_keyboard_vertical_correction</item>
+  </style>
+
+  <style name="E2EEStripView.LXX_Pure_Day" parent="Keyboard">
+    <item name="android:background">@color/background_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:background">@drawable/selectable_button_bg_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Encrypt_LXX_Pure_Day" parent="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:src">@drawable/ic_mail_lock_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Decrypt_LXX_Pure_Day" parent="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:src">@drawable/ic_lock_24dp_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Recipient_LXX_Pure_Day" parent="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:src">@drawable/ic_baseline_person_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewInputField_LXX_Pure_Day">
+    <item name="android:background">@drawable/rounded_edittext_states_lxx_pure_day</item>
+    <item name="android:textColor">@color/key_text_color_lxx_pure_day</item>
+    <item name="android:textColorHint">@color/key_hint_letter_color_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewInputFieldClearButton_LXX_Pure_Day">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:src">@drawable/ic_baseline_clear_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewInputFieldSelectFairyTaleEncButton_LXX_Pure_Day">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:src">@drawable/ic_auto_stories_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewInputFieldSelectRawEncButton_LXX_Pure_Day">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:src">@drawable/ic_raw_on_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewInfoTextField_LXX_Pure_Day">
+    <item name="android:textColor">@color/key_text_color_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButtonChatLogs_LXX_Pure_Day" parent="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:src">@drawable/ic_baseline_question_answer_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Help_LXX_Pure_Day" parent="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:src">@drawable/ic_baseline_help_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Cancel_LXX_Pure_Day" parent="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:src">@drawable/ic_baseline_cancel_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Add_Contact_LXX_Pure_Day" parent="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:src">@drawable/ic_baseline_check_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Invite_New_Contact_LXX_Pure_Day" parent="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:src">@drawable/ic_baseline_person_add_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewOwnMessagesTextView_LXX_Pure_Day">
+    <item name="android:background">@drawable/round_shape_own_messages_element_lxx_pure_day</item>
+    <item name="android:textColor">@color/key_text_color_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewOthersMessagesTextView_LXX_Pure_Day">
+    <item name="android:background">@drawable/round_shape_others_messages_element_lxx_pure_day
+    </item>
+    <item name="android:textColor">@color/key_text_color_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewMessagesTimestampTextView_LXX_Pure_Day">
+    <item name="android:textColor">@color/key_text_color_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Return_LXX_Pure_Day" parent="E2EEStripViewCommon_LXX_Pure_Day">
+    <item name="android:src">@drawable/ic_baseline_keyboard_return_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewContactListNameField_LXX_Pure_Day">
+    <item name="android:textColor">@color/key_text_color_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Remove_Contact_LXX_Pure_Day">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:src">@drawable/ic_baseline_delete_forever_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewFingerprint_LXX_Pure_Day">
+    <item name="android:textColor">@color/key_text_color_lxx_pure_day</item>
+    <item name="android:fontFamily">monospace</item>
+    <item name="android:typeface">monospace</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:clickable">false</item>
+    <item name="android:focusable">false</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Unverified_LXX_Pure_Day">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:src">@drawable/ic_remove_moderator_24_lxx_pure_day</item>
+  </style>
+
+  <style name="E2EEStripViewActionButton_Verified_LXX_Pure_Day">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:src">@drawable/ic_baseline_verified_user_24_lxx_pure_day</item>
+  </style>
+</resources>

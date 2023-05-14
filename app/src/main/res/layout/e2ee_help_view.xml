@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/e2ee_help_view_wrapper"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:visibility="gone">
+
+  <TextView
+    android:id="@+id/e2ee_help_info_text"
+    style="?attr/e2eeStripInfoTextStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center" />
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginBottom="2dp"
+    android:scrollbars="vertical">
+
+    <TextView
+      android:id="@+id/e2ee_help_view_text"
+      style="?attr/e2eeStripInfoTextStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="start"
+      android:textSize="12sp" />
+  </ScrollView>
+
+  <TextView
+    android:id="@+id/e2ee_help_view_version_text"
+    style="?attr/e2eeStripInfoTextStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:gravity="center"
+    android:scrollbars="vertical"
+    android:textSize="15sp" />
+
+  <LinearLayout
+    android:id="@+id/e2ee_help_list_button_strip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_weight="0"
+    android:gravity="center"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="horizontal"
+    android:soundEffectsEnabled="false"
+    android:translationZ="10dp">
+
+    <ImageButton
+      android:id="@+id/e2ee_help_list_return_button"
+      style="?attr/e2eeStripActionButtonReturnStyle"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center" />
+  </LinearLayout>
+</LinearLayout>

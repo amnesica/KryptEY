@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+  android:padding="0dp"
+  android:shape="rectangle">
+
+  <solid android:color="@color/key_background_pressed_lxx_pure_day" />
+  <corners android:radius="20dp" />
+</shape>

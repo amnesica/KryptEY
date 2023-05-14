@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/e2ee_add_contact_wrapper"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:visibility="gone">
+
+  <TextView
+    android:id="@+id/e2ee_add_contact_info_text"
+    style="?attr/e2eeStripInfoTextStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center" />
+
+  <LinearLayout
+    android:id="@+id/e2ee_add_contact_edit_text_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <EditText
+      android:id="@+id/e2ee_add_contact_first_name_input_field"
+      style="?attr/e2eeStripInputFieldStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:ems="9"
+      android:focusableInTouchMode="true"
+      android:hint="first name"
+      android:inputType="textMultiLine"
+      android:maxHeight="100dp"
+      android:padding="10dp"
+      android:textSize="17sp"
+      android:verticalScrollbarPosition="defaultPosition" />
+
+    <EditText
+      android:id="@+id/e2ee_add_contact_last_name_input_field"
+      style="?attr/e2eeStripInputFieldStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginStart="10dp"
+      android:ems="10"
+      android:focusableInTouchMode="true"
+      android:hint="last name"
+      android:inputType="textMultiLine"
+      android:maxHeight="100dp"
+      android:padding="10dp"
+      android:textSize="17sp"
+      android:verticalScrollbarPosition="defaultPosition" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/e2ee_add_contact_button_strip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_weight="0"
+    android:gravity="center"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="horizontal"
+    android:soundEffectsEnabled="false"
+    android:translationZ="10dp">
+
+    <ImageButton
+      android:id="@+id/e2ee_add_contact_button"
+      style="?attr/e2eeStripActionButtonAddContactStyle"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center"
+      android:layout_marginRight="15dp" />
+
+    <ImageButton
+      android:id="@+id/e2ee_add_contact_cancel_button"
+      style="?attr/e2eeStripActionButtonCancelStyle"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center" />
+  </LinearLayout>
+</LinearLayout>

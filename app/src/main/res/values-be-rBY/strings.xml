@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="vibrate_on_keypress">"Вібрацыя пры націску клавіш"</string>
+  <string name="sound_on_keypress">"Гук пры націску"</string>
+  <string name="popup_on_keypress">"Па націску на клавішы ўсплывае акно"</string>
+  <string name="settings_screen_preferences">"Параметры"</string>
+  <string name="settings_screen_theme">"Тэма"</string>
+  <string name="abbreviation_unit_milliseconds">"<xliff:g id="MILLISECONDS">%s</xliff:g> мс"</string>
+  <string name="settings_system_default">"Стандартныя сістэмныя"</string>
+  <string name="auto_cap">"Аўтаматычна рабіць літары вялікімі"</string>
+  <string name="auto_cap_summary">"Пісаць з загалоўнай літары першае слова ў кожным сказе"</string>
+  <string name="select_language">"Мовы"</string>
+  <string name="locale_name_en_GB">"англійская (Вялікабрытанія)"</string>
+  <string name="locale_name_en_US">"англійская (ЗША)"</string>
+  <string name="locale_name_es_US">"iспанская (ЗША)"</string>
+  <string name="locale_name_hi_ZZ">"Хінгліш"</string>
+  <string name="locale_name_sr_ZZ">"Сербская (лацініца)"</string>
+  <string name="subtype_traditional">"традыцыйная"</string>
+  <string name="subtype_compact">"кампактная"</string>
+  <string name="add">"Дадаць"</string>
+  <string name="remove">"Выдаліць"</string>
+  <string name="prefs_keypress_vibration_duration_settings">"Працягласць вібрацыі пры націску клавіш"</string>
+  <string name="prefs_keypress_sound_volume_settings">"Гучнасць гуку пры націску клавіш"</string>
+  <string name="prefs_key_longpress_timeout_settings">"Затрымка доўгага націску клавішы"</string>
+  <string name="button_default">"Па змаўчанні"</string>
+</resources>

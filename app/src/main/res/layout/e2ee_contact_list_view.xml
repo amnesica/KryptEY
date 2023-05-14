@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/e2ee_contact_list_wrapper"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:visibility="gone">
+
+  <TextView
+    android:id="@+id/e2ee_contact_list_info_text"
+    style="?attr/e2eeStripInfoTextStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center" />
+
+  <LinearLayout
+    android:id="@+id/e2ee_contact_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ListView
+      android:id="@+id/e2ee_contact_list"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fastScrollEnabled="true"
+      android:divider="@null" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/e2ee_contact_list_button_strip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_weight="0"
+    android:gravity="center"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="horizontal"
+    android:soundEffectsEnabled="false"
+    android:translationZ="10dp">
+
+    <ImageButton
+      android:id="@+id/e2ee_contact_list_invite_new_contact_button"
+      style="?attr/e2eeStripActionButtonInviteNewContactStyle"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center"
+      android:layout_marginRight="15dp" />
+
+    <ImageButton
+      android:id="@+id/e2ee_contact_list_return_button"
+      style="?attr/e2eeStripActionButtonReturnStyle"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center" />
+  </LinearLayout>
+</LinearLayout>

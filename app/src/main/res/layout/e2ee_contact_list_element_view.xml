@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/relLayoutContactListViewElement"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <View
+    android:id="@+id/e2ee_contact_element_divider_view"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp" />
+
+  <ImageButton
+    android:id="@+id/e2ee_verify_contact_unverified_button"
+    style="?attr/e2eeStripContactUnverifiedButtonStyle"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_alignStart="@id/e2ee_contact_element_divider_view"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="30dp" />
+
+  <ImageButton
+    android:id="@+id/e2ee_verify_contact_verified_button"
+    style="?attr/e2eeStripContactVerifiedButtonStyle"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_alignStart="@id/e2ee_contact_element_divider_view"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="30dp" />
+
+  <TextView
+    android:id="@+id/e2ee_contact_first_name_element"
+    style="?attr/e2eeStripContactListNameFieldStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginVertical="5dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="5dp"
+    android:layout_toEndOf="@id/e2ee_verify_contact_unverified_button"
+    android:textSize="20sp" />
+
+  <TextView
+    android:id="@+id/e2ee_contact_last_name_element"
+    style="?attr/e2eeStripContactListNameFieldStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginVertical="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_toEndOf="@id/e2ee_contact_first_name_element"
+    android:textSize="20sp" />
+
+  <ImageButton
+    android:id="@+id/e2ee_contact_button_delete_contact"
+    style="?attr/e2eeStripInputFieldRemoveButtonStyle"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_alignEnd="@id/e2ee_contact_element_divider_view"
+    android:layout_centerVertical="true"
+    android:layout_marginEnd="30dp" />
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+
+  <View
+    android:id="@+id/e2ee_messages_element_divider_view"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp" />
+
+  <TextView
+    android:id="@+id/e2ee_own_messages_timestamp_text_view_element"
+    style="?attr/e2eeStripMessagesTimestampTextStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@id/e2ee_messages_element_divider_view"
+    android:layout_alignBottom="@id/e2ee_own_messages_text_view_element"
+    android:layout_marginEnd="20dp"
+    android:fontFamily="sans-serif-light"
+    android:paddingBottom="2dp"
+    android:textSize="11sp" />
+
+  <TextView
+    android:id="@+id/e2ee_own_messages_text_view_element"
+    style="?attr/e2eeStripOwnMessagesTextStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@id/e2ee_messages_element_divider_view"
+    android:layout_centerVertical="true"
+    android:layout_marginVertical="5dp"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="10dp"
+    android:minEms="7"
+    android:paddingHorizontal="11dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="16dp"
+    android:textSize="16sp"
+    android:translationZ="-1dp" />
+
+  <TextView
+    android:id="@+id/e2ee_others_messages_timestamp_text_view_element"
+    style="?attr/e2eeStripMessagesTimestampTextStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@id/e2ee_messages_element_divider_view"
+    android:layout_alignBottom="@id/e2ee_others_messages_text_view_element"
+    android:layout_marginStart="20dp"
+    android:fontFamily="sans-serif-light"
+    android:paddingBottom="2dp"
+    android:textSize="11sp" />
+
+  <TextView
+    android:id="@+id/e2ee_others_messages_text_view_element"
+    style="?attr/e2eeStripOthersMessagesTextStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@id/e2ee_messages_element_divider_view"
+    android:layout_centerVertical="true"
+    android:layout_marginVertical="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="40dp"
+    android:minEms="7"
+    android:paddingHorizontal="11dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="16dp"
+    android:textSize="16sp"
+    android:translationZ="-1dp" />
+</RelativeLayout>
+

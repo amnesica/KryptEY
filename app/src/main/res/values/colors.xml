@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources>
+  <!-- Color resources for LXX_Light theme. -->
+  <color name="background_lxx_light">#ECEFF1</color>
+  <color name="key_text_color_lxx_light">#37474F</color>
+  <color name="key_functional_text_color_lxx_light">#CC37474F</color>
+  <color name="key_text_inactive_color_lxx_light">#B337474F</color>
+  <color name="key_hint_letter_color_lxx_light">#B337474F</color>
+  <color name="language_on_spacebar_text_color_lxx_light">#B337474F</color>
+  <color name="sliding_key_input_preview_color_lxx_light">#B34DB6AC</color>
+  <color name="key_background_normal_lxx_light">#22222222</color>
+  <color name="key_background_pressed_lxx_light">#2637474F</color>
+
+  <!-- Color resources for LXX_Dark theme. -->
+  <color name="background_lxx_dark">#263238</color>
+  <color name="key_text_color_lxx_dark">#CCFFFFFF</color>
+  <color name="key_functional_text_color_lxx_dark">#CCFFFFFF</color>
+  <color name="key_text_inactive_color_lxx_dark">#80FFFFFF</color>
+  <color name="key_hint_letter_color_lxx_dark">#80FFFFFF</color>
+  <color name="sliding_key_input_preview_color_lxx_dark">#B380CBC4</color>
+  <color name="key_background_normal_lxx_dark">#66222222</color>
+  <color name="key_background_pressed_lxx_dark">#19FFFFFF</color>
+
+  <!-- Color resources for LXX_Pure_Day theme. -->
+  <color name="background_lxx_pure_day">#e0e0e0</color>
+  <color name="key_text_color_lxx_pure_day">#CC000000</color>
+  <color name="key_functional_text_color_lxx_pure_day">#CC606060</color>
+  <color name="key_text_inactive_color_lxx_pure_day">#BB606060</color>
+  <color name="key_hint_letter_color_lxx_pure_day">#CC606060</color>
+  <color name="sliding_key_input_preview_color_lxx_pure_day">#4CAF50</color>
+  <color name="key_background_normal_lxx_pure_day">#22FFFFFF</color>
+  <color name="key_background_pressed_lxx_pure_day">#AAEFEFEF</color>
+  <color name="own_messages_chat_bubble_background_lxx_pure_day">#FFFFFFFF</color>
+  <color name="others_messages_chat_bubble_background_lxx_pure_day">#AAEFEFEF</color>
+
+  <!-- Color resources for LXX_Pure_Night theme. -->
+  <color name="background_lxx_pure_night">#000000</color>
+  <color name="key_text_color_lxx_pure_night">#CCFFFFFF</color>
+  <color name="key_functional_text_color_lxx_pure_night">#CC858585</color>
+  <color name="key_text_inactive_color_lxx_pure_night">#80FFFFFF</color>
+  <color name="key_hint_letter_color_lxx_pure_night">#CC858585</color>
+  <color name="sliding_key_input_preview_color_lxx_pure_night">#4CAF50</color>
+  <color name="key_background_normal_lxx_pure_night">#19FFFFFF</color>
+  <color name="key_background_pressed_lxx_pure_night">#198F8F8F</color>
+  <color name="own_messages_chat_bubble_background_lxx_pure_night">#27D4D4D4</color>
+  <color name="others_messages_chat_bubble_background_lxx_pure_night">#4FFFFFFF</color>
+  <color name="action_button_background_normal_lxx_pure_night">#37FFFFFF</color>
+  <color name="action_button_background_pressed_lxx_pure_night">#198F8F8F</color>
+  <color name="input_field_background_pressed_lxx_pure_night">#3FFFFFFF</color>
+
+  <!-- Dimensions for all themes. -->
+  <dimen name="button_corner_radius_lxx">6dp</dimen>
+</resources>

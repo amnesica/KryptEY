@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+  android:shape="rectangle">
+
+  <solid android:color="@color/action_button_background_normal_lxx_pure_night" />
+  <corners
+    android:bottomLeftRadius="500dp"
+    android:bottomRightRadius="500dp"
+    android:topLeftRadius="500dp"
+    android:topRightRadius="500dp" />
+
+</shape>
