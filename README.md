@@ -41,6 +41,7 @@ the Keyboard for the E2EE functionality.
 - send messages as plain JSON (raw mode) or hidden in a decoy text (fairytale mode)
 - verification of E2EE functionality via fingerprint
 - Q&A View helps with questions
+- Dark & light theme
 
 See [this](/KRYPTEY.md) document for further information on how KryptEY is working.
 
