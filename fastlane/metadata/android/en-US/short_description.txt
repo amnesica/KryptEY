@@ -1,0 +1,1 @@
+Keyboard for secure E2EE communication through signal protocol in any messenger
