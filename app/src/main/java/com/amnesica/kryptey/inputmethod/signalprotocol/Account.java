@@ -49,7 +49,7 @@ public class Account {
   public IdentityKeyPair getIdentityKeyPair() {
     return mIdentityKeyPair;
   }
-  
+
   public void setIdentityKeyPair(IdentityKeyPair identityKeyPair) {
     this.mIdentityKeyPair = identityKeyPair;
   }
