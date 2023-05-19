@@ -61,7 +61,7 @@ See [this](/KRYPTEY.md) document for further information on how KryptEY is worki
 
 ## Demo
 
-Conversation between Alice (right) and Bob (left) in the Signal Messenger using KryptEY.
+Conversation between Alice (left) and Bob (right) in the Signal Messenger using KryptEY.
 
 <div style="display:flex;" align="center">
 <img alt="App image" src="static/screenshots/demo.gif" width="80%">
