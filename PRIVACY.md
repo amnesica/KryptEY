@@ -1,3 +1,3 @@
-<h1 align="center">KryptEY - Privacy</h1>
+# Privacy
 
 All data remains on the device and is not send anywhere! Enjoy private communication!
