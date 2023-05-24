@@ -6,7 +6,7 @@ Breaking of end-to-end encryption (E2EE) by laws such as the planned EU chat con
 KryptEY is an Android keyboard that implements the Signal protocol. The keyboard works messenger-independently and both the X3DH Key Agreement Protocol and the Double Ratchet Algorithm work without a server, thus it enables a highly independent use of the protocol.
 
 <b>Features</b>
-Based upon the <a href="https://github.com/rkkr/simple-keyboard">Simple Keyboard</a> KryptEY adds a view above the Keyboard for the E2EE functionality.
+Based upon Simple Keyboard ( https://github.com/rkkr/simple-keyboard ), KryptEY adds a view above the Keyboard for the E2EE functionality.
 
 * use E2EE through Signal Protocol in any messenger
 * encryption/decryption of messages
@@ -19,7 +19,7 @@ Based upon the <a href="https://github.com/rkkr/simple-keyboard">Simple Keyboard
 * Q&A View for questions
 * dark & light theme
 
-See <a href="https://github.com/amnesica/KryptEY/blob/master/KRYPTEY.md">this</a> document for further information on how KryptEY is working.
+See https://github.com/amnesica/KryptEY/blob/master/KRYPTEY.md for further information on how KryptEY is working.
 
 <b>Security</b>
 The existing security properties for the Signal Protocol are also valid for the keyboard.
@@ -32,6 +32,6 @@ Text messages in Telegram are getting copied as HTML and not as plain text. When
 Some messengers like Threema only allows up to 3500 bytes per message. Therefore, different character input limitations apply. To stay under the 3500 bytes limit, only 500 characters are allowed for raw and fairytale mode. For convenience these limitation applies for all messengers.
 
 <b>Demo</b>
-For a demonstration on how KryptEY is used see <a href="https://github.com/amnesica/KryptEY/tree/master#demo">this</a> link.
+For a demonstration on how KryptEY is used see https://github.com/amnesica/KryptEY/tree/master#demo 
 
-KryptEY was created by mellitopia and amnesica. The code is open source and can be found <a href="https://github.com/amnesica/KryptEY">here</a>.
+KryptEY was created by mellitopia and amnesica. The code is open source and can be found at https://github.com/amnesica/KryptEY
