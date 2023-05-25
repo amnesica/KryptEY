@@ -8,7 +8,7 @@
 ![Chatkontrolle stoppen](https://img.shields.io/badge/chatkontrolle-stoppen-blueviolet)
 ![Stop scanning me](https://img.shields.io/badge/stop-scanning%20me-blueviolet)
 
-Keyboard for secure end-to-end-encrypted messages through the signal protocol in any messenger.
+An Android keyboard for secure end-to-end-encrypted messages through the signal protocol in any messenger.
 Communicate securely and independent, regardless of the legal situation or whether messengers use
 E2EE. No server needed.
 
@@ -55,7 +55,7 @@ the Keyboard for the E2EE functionality.
 - send messages as plain JSON (raw mode) or hidden in a decoy text (fairytale mode)
 - verification of E2EE functionality via fingerprint
 - Q&A View helps with questions
-- Dark & light theme
+- dark & light theme
 
 See [this](/KRYPTEY.md) document for further information on how KryptEY is working.
 
