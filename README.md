@@ -69,10 +69,12 @@ Conversation between Alice (left) and Bob (right) in the Signal Messenger using 
 
 ## Download
 
+<a href='https://f-droid.org/en/packages/com.amnesica.kryptey/'><img alt='Get it on F-Droid' src='https://gitlab.com/fdroid/artwork/-/blob/master/badge/get-it-on-en.png' height='60'/></a>
 <a href='https://android.izzysoft.de/repo/apk/com.amnesica.kryptey'><img alt='Get it on IzzyOnDroid' src='https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png' height='60'/></a>
 <a href='https://github.com/amnesica/KryptEY/releases'><img alt='Get it on Github' src='static/github/get-it-on-github.png' height='60'/></a>
 
-If you need instructions on how to use the app, see our help [here](/HELP.md)
+KryptEY requires Android 8.0 or newer. If you need instructions on how to use the app, see our
+help [here](/HELP.md)
 
 ## Privacy
 
